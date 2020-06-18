@@ -2,7 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 function Hi() {
-  return <div>Hello world</div>
+  return <div>
+      Hello <strong>Faizan</strong>
+      </div>
 }
 
 ReactDOM.render (
