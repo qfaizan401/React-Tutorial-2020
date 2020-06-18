@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom'
 
 function Hi() {
   return <div>
-      Hello <strong>Faizan</strong>
+      <h1>Calculator using React</h1>
       {
-          alert("My First React App")
+          var a = Number(prompt("Enter 1st Number:"))
+          var b = Number(prompt("Enter 2st Number:"))
+          var add = 
       }
       </div>
 }
