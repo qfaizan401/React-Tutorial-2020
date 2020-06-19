@@ -5,9 +5,7 @@ function Hi() {
   return <div>
       <h1>Calculator using React</h1>
       {
-          var a = Number(prompt("Enter 1st Number:"))
-          var b = Number(prompt("Enter 2st Number:"))
-          var add = 
+         alert("Hello world") 
       }
       </div>
 }
