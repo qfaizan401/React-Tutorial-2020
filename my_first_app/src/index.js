@@ -1,13 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import MyInfo from './components/MyInfo'
+
 ReactDOM.render(
-<div>
-    <ul>
-        <li>Read Books</li>
-        <li>Cook Food</li>
-        <li>Car Repair</li>
-    </ul>
-</div>,
-document.getElementById('root')
+    <MyInfo />,
+    document.getElementById('root')
 )
