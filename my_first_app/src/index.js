@@ -1,16 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-function Hi() {
-  return <div>
-      <h1>Calculator using React</h1>
-      {
-         alert("Hello world") 
-      }
-      </div>
-}
-
-ReactDOM.render (
-    <Hi/>,
-    document.querySelector('#root')
+ReactDOM.render(
+<div>
+    <ul>
+        <li>Read Books</li>
+        <li>Cook Food</li>
+        <li>Car Repair</li>
+    </ul>
+</div>,
+document.getElementById('root')
 )
