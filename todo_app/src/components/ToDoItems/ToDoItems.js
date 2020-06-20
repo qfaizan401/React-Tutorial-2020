@@ -3,9 +3,9 @@ import styles from './ToDoItems.module.css'
 
 function MainContent () {
     return(
-        <div className = {styles.todo_item}>
+        <div className = {styles.todo_items}>
             <input type = 'checkbox' />
-            <p>Task 1</p>
+            <p>PlaceHolder Text Here</p>
         </div>
             
     )
