@@ -1,12 +1,15 @@
 import React from 'react'
 
-import { MainContent, Footer, Header } from './components'
+import { ToDoItems, Footer, Header } from './components'
 
 function Task () {
     return (
         <div>
             <Header />
-            <MainContent />
+            <ToDoItems />
+            <ToDoItems />
+            <ToDoItems />
+            <ToDoItems />
             <Footer />
         </div>
     )

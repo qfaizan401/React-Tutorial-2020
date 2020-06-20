@@ -1,3 +1,3 @@
 export { default as Header } from './Header/Header'
-export { default as MainContent } from './MainContent/MainContent'
+export { default as ToDoItems } from './ToDoItems/ToDoItems'
 export { default as Footer } from './Footer/Footer'
